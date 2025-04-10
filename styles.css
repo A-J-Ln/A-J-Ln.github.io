@@ -6,10 +6,28 @@ body {
     margin: 0;
     padding: 20px;
   }
-  
+
 /* === Headings === */
 h1, h2, h3 {
     font-family: 'Proxima Nova', sans-serif;
     color: #d9d9d9;
   }
-    
+
+/* === Navbar ===*/
+.navbar {
+    background-color: #1c1c1c;
+    padding: 10px 20px;
+    display: flex;
+    gap: 15px;
+    border-radius: 10px;
+}    
+
+.navbar a{
+    color: #d9d9d9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover{
+    color: #a52020;
+}
