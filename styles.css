@@ -1,6 +1,8 @@
 /* === General Reset & Page Styling === */
 body {
-    background-color: #a52020; /* red background */
+    background-image: url(images/MidnightCity.png);
+    background-position: center;
+    background-size: 1920px 1080px;
     color: #d9d9d9;            /* grey text */
     font-family: 'Courier New', serif;
     margin-right: 150px;
@@ -16,7 +18,7 @@ h1, h2, h3, h4 {
 
 /* === Navbar ===*/
 .navbar {
-    background-color: #1c1c1c;
+    background-color: #1c1c1cbd;
     padding: 10px 20px;
     display: flex;
     gap: 30px;
@@ -35,7 +37,7 @@ h1, h2, h3, h4 {
 
 /* === Container Class === */
 .container {
-    background-color: #1c1c1c;
+    background-color: #1c1c1cbd;
     padding: 20px;
     margin: 20px 0;
     border-radius: 10px;
@@ -88,6 +90,8 @@ img {
     height: 150px;
     object-fit: cover;
     border-radius: 8px;
+    min-width: none;
+    max-width: none;
 }
 
 #Crimson {
