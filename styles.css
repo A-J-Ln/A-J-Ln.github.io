@@ -3,7 +3,7 @@ body {
     background-image: url(images/MidnightCity.png);
     background-position: center;
     background-size: 1920px 1080px;
-    color: #d9d9d9;            /* grey text */
+    color: #d9d9d9; /* grey text */
     font-family: 'Courier New', serif;
     margin-right: 150px;
     margin-left: 150px;
@@ -24,7 +24,7 @@ h3 {
 
 /* === Navbar ===*/
 .navbar {
-    background-color: #1c1c1cf3;
+    background-color: #1c1c1cf3; /* dark grey */
     font-family: 'Proxima Nova', sans-serif;
     padding: 10px 20px;
     display: flex;
@@ -40,7 +40,7 @@ h3 {
 }
 
 .navbar a:hover{
-    color: #a52020;
+    color: #a52020; /* red on hover */
 }
 
 /* === Container Class === */
@@ -66,21 +66,7 @@ h3 {
     border-radius: 10px;
 
 }
-
-/* === Highlight ID === */
-#highlight {
-    background-color: #000000;
-    color: #d9d9d9;
-    padding: 20px;
-    border-radius: 10px;
-    font-weight: bold;
-}
   
-.highlighted-text {
-    color: #a52020;
-    font-weight: bold;
-}
-
 /* === Album Flexbox Section === */
 .flexbox-container {
     display: flex;
@@ -110,6 +96,8 @@ img {
     max-width: none;
 }
 
+/* === ID customization === */
+
 #Crimson {
     color: #e72020;
 }
@@ -121,3 +109,21 @@ img {
 #Midnight {
     color: #19c734;
 }
+
+/* === Button Customization === */
+#alertMe {
+    background-color: #a52020;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+  #alertMe:hover {
+    background-color: #6f1616; /* darker red on hover */
+}
+  
