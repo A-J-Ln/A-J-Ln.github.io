@@ -123,7 +123,34 @@ img {
     transition: background-color 0.3s ease;
 }
   
-  #alertMe:hover {
+#alertMe:hover {
     background-color: #6f1616; /* darker red on hover */
 }
+
+#hoverButton {
+    background-color: #3171b5;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#hoverButton:hover {
+    animation: pulse 1s infinite; /* Pulse animation on hover */
+}
   
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1); /* Max size */
+    }
+    100% {
+      transform: scale(1);
+    }
+}
