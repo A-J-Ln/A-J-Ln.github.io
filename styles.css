@@ -154,3 +154,15 @@ img {
       transform: scale(1);
     }
 }
+
+#buttonCounter {
+    background-color: #17b12f;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
