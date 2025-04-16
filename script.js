@@ -15,3 +15,16 @@ document.getElementById("hoverButton").onmouseover = function() {
 document.getElementById("hoverButton").onmouseleave = function() {
     document.getElementById("hoverButton").style.background = "#3171b5";  // Return to original color when cursor leaves
     };
+
+// Incrementing Button
+let count = 0;
+document.getElementById("buttonCounter").onclick = function() {
+     count = count + 1;
+     document.getElementById("counter").innerHTML = count;
+    
+     if (count % 2 === 0) {
+        document.getElementById('counter').style.color = "#a52020"; // Even
+    } else {
+        document.getElementById('counter').style.color = "#3171b5"; // Odd
+    }
+    };
