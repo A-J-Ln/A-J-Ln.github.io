@@ -166,3 +166,13 @@ img {
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
+
+#buttonCounter:hover {
+    background-color: #138925; /* darker green on hover */
+}
+
+#container {
+    color: #e72020;
+    text-align: center;
+    font-weight: bold;
+}

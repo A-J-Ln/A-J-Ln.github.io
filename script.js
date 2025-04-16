@@ -28,3 +28,7 @@ document.getElementById("buttonCounter").onclick = function() {
         document.getElementById('counter').style.color = "#3171b5"; // Odd
     }
     };
+
+    for (let i = 0; i < 5; i = i + 1) {
+        document.getElementById('container').append("DON'T GET CAUGHT" + " * ");
+    };    
